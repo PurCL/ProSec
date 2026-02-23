@@ -5,6 +5,7 @@ Code repo for the paper [ProSec: Fortifying Code LLMs with Proactive Security Al
 ## Table of Contents
 
 - [Overview](#overview)
+- [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Pipeline](#pipeline)
   - [Step 1: Synthesize CWE-Inducing Instructions](#step-1-synthesize-cwe-inducing-instructions)
@@ -37,11 +38,25 @@ Generate Fixes & Re-detect          |
             Final Training Dataset
 ```
 
+## Getting Started
+
+Clone the repository with its submodule:
+
+```shell
+git clone --recurse-submodules https://github.com/PurCL/ProSec.git
+```
+
+If you have already cloned without `--recurse-submodules`, fetch the submodule separately:
+
+```shell
+git submodule update --init --recursive
+```
+
 ## Prerequisites
 
 - Python 3
 - The tested model must be hosted via [vLLM](https://github.com/vllm-project/vllm) with an OpenAI-compatible API endpoint.
-- [PurCL's Purple Llama](https://github.com/PurCL/PurpleLlama) is included as a git submodule under `PurpleLlama/`. After cloning this repo, run `git submodule update --init --recursive` to fetch it.
+- [PurCL's Purple Llama](https://github.com/PurCL/PurpleLlama) is included as a git submodule under `PurpleLlama/`.
 
 ## Data Synthesis Pipeline
 
