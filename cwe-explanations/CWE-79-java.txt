@@ -1,0 +1,1 @@
+CWE-79, Cross-Site Scripting, is a vulnerability where malicious scripts are injected into web pages. In Java, this often occurs when user inputs are inadequately sanitized in JSP, frameworks like Spring or Struts, or servlets. These issues arise when inputs are directly embedded into web pages without proper validation or escaping, leading to XSS attacks targeting user browsers.

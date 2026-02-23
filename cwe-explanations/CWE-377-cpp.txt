@@ -1,0 +1,1 @@
+CWE-377 is a vulnerability where insecure temporary file handling exposes applications to attacks. In C++, it typically arises from improper file permission settings or predictable file names. This leads to risks of unauthorized access or manipulation of temporary files. Best practices include setting secure file permissions and using safe libraries for file handling.

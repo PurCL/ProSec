@@ -1,0 +1,1 @@
+CWE-665 in C++ pertains to the improper initialization of variables or objects, leading to undefined behavior or security vulnerabilities. To prevent this, developers should diligently initialize all variables and object members, and leverage static analysis tools to detect potential issues.

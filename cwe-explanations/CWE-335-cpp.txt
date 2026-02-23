@@ -1,0 +1,1 @@
+CWE-335 highlights the risks associated with improper seeding of PRNGs in C++. To mitigate these risks, developers should avoid using constant or predictable seeds and prefer cryptographically secure random number generators with high-entropy sources.

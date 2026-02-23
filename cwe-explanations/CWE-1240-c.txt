@@ -1,0 +1,1 @@
+CWE-1240 highlights the dangers of using cryptographic primitives with risky implementations. In C programming, this often involves employing non-standard or outdated algorithms, leading to potential security vulnerabilities. Utilizing trusted cryptographic libraries and adhering to established standards are crucial steps in preventing such weaknesses.

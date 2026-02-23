@@ -1,0 +1,1 @@
+CWE-502 refers to vulnerabilities related to deserializing untrusted data, which can allow attackers to inject or execute malicious code. In C#, common instances include the unsafe use of deserialization mechanisms like BinaryFormatter and JSON.NET, which can lead to remote code execution or privilege escalation if inputs are not validated.

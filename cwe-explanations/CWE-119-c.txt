@@ -1,0 +1,1 @@
+CWE-119 describes vulnerabilities from improper memory access due to exceeding buffer limits. In C, this is often caused by unsafe memory handling with pointers and functions that do not enforce bounds, such as `strcpy` or `gets`. These flaws can lead to crashes, data corruption, or serious security risks, like arbitrary code execution.

@@ -1,0 +1,1 @@
+CWE-770 addresses the lack of limitations in resource allocation, which can lead to resource exhaustion and DoS attacks. In JavaScript applications, especially those running on servers, it's crucial to validate inputs and set resource constraints to prevent potential abuses.

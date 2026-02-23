@@ -1,0 +1,1 @@
+CWE-119 is a vulnerability caused by improper memory operations, leading to buffer overflows. In C++, this often happens with unsafe functions (`strcpy`, `strcat`), incorrect pointer usage, and lack of bounds checking when working with arrays or dynamically allocated memory. These errors can lead to crashes or code execution exploits if attackers manipulate memory operations.

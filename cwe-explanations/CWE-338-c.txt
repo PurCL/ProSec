@@ -1,0 +1,1 @@
+CWE-338 is about using weak pseudo-random number generators in security-sensitive applications. In C, this weakness often stems from reliance on the `rand()` function, which provides predictable results, or improper seeding via `srand()`. Such mistakes can compromise cryptographic operations, allowing attackers to predict random values and exploit the system.

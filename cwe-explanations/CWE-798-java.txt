@@ -1,0 +1,1 @@
+CWE-798 highlights the dangers of embedding fixed authentication credentials within an application's code. In Java, this commonly occurs with database connections, API integrations, and improperly secured configuration files. To mitigate these risks, developers should externalize credentials, utilize secret management tools, and enforce strict access controls.

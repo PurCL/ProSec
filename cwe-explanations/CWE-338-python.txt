@@ -1,0 +1,1 @@
+CWE-338 involves using weak PRNGs in security-sensitive scenarios. In Python, a common mistake is using the `random` module for cryptographic purposes, which can lead to vulnerabilities. Developers should use the `secrets` module or `os.urandom()` for secure random number generation in Python to avoid the risks associated with weak PRNGs.

@@ -1,0 +1,1 @@
+CWE-643 refers to improper neutralization of data within XPath expressions, leading to potential injection attacks. In Java, this occurs when user inputs are directly used in XPath queries without proper validation, allowing attackers to manipulate the query structure. Mitigation involves sanitizing inputs and using parameterized queries to prevent unauthorized data access.

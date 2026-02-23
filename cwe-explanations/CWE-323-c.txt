@@ -1,0 +1,1 @@
+CWE-323 highlights the risks associated with reusing nonces or key pairs in encryption processes. In C programming, this vulnerability typically arises from the use of static or improperly managed nonces, leading to potential security breaches. Ensuring the use of unique nonces for each encryption operation is crucial to maintaining data security and integrity.

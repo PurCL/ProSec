@@ -1,0 +1,1 @@
+CWE-295 occurs when a system improperly validates certificates in secure connections, leading to potential data interception. In Rust, the risk arises primarily from improper handling in libraries managing SSL/TLS connections, though the language's safety features reduce some risks. However, misuse of libraries or misconfiguration can still cause this vulnerability.

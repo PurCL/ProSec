@@ -1,0 +1,1 @@
+CWE-200 involves the unintended exposure of sensitive information to unauthorized parties. In Java, this weakness often manifests through improper exception handling, insecure logging, API misuse, and misconfigured file permissions. Addressing these issues requires securely handling errors, controlling data flows, and properly configuring system components.

@@ -1,0 +1,1 @@
+CWE-276 highlights the dangers of assigning overly permissive default permissions in software. In Java, this can occur when applications create or manage files with insecure permissions, potentially allowing unauthorized users to access or modify sensitive data. Developers should enforce strict permission settings and regularly review them to maintain application security.

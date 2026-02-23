@@ -1,0 +1,1 @@
+CWE-306 refers to missing authentication for critical functions, allowing unauthorized access to sensitive operations. In Java, this can manifest as unprotected methods or exposed services lacking authentication checks. Implementing robust authentication mechanisms for all critical functions is essential to prevent unauthorized access.

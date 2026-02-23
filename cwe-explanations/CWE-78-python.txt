@@ -1,0 +1,1 @@
+CWE-78, OS Command Injection, allows attackers to inject malicious system commands through untrusted inputs if they are not sanitized. In Python, this happens when user input is directly passed to functions like `os.system()` or `subprocess.run()` without proper validation or escaping, making the system vulnerable to arbitrary command execution.

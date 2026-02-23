@@ -1,0 +1,1 @@
+CWE-338 refers to the use of weak pseudo-random number generators (PRNGs) for cryptographic purposes. In JavaScript, this issue commonly arises when `Math.random()` is used in cryptographic contexts, exposing applications to security risks due to its predictability. Secure alternatives like `crypto.getRandomValues()` should be used to avoid this vulnerability.

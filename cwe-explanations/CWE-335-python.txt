@@ -1,0 +1,1 @@
+In summary, CWE-335 highlights the risks of improper seed management in PRNGs. In Python, relying on the random module with predictable seeds can lead to security vulnerabilities. Utilizing the secrets module is recommended for cryptographic applications to ensure secure random number generation.

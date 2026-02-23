@@ -1,0 +1,1 @@
+CWE-89 relates to SQL Injection vulnerabilities, where untrusted input is included in SQL queries without proper sanitization. In C#, this occurs when user inputs are directly concatenated into SQL commands without the use of parameterized queries or other protective measures, allowing attackers to alter the database query's behavior.

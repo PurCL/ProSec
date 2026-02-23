@@ -1,0 +1,1 @@
+CWE-95 addresses vulnerabilities arising from improper handling of input in dynamically evaluated code, notably through functions like eval() in JavaScript. Such practices can lead to code injection attacks, allowing unauthorized code execution. Avoiding the use of eval() and implementing strict input validation are key preventive measures.

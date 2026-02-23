@@ -1,0 +1,1 @@
+CWE-323 highlights the dangers of reusing nonces or key pairs in encryption. In Python applications, this can occur if nonces are not uniquely generated for each encryption process, leading to vulnerabilities like replay attacks. Developers should ensure the use of unique, securely generated nonces to maintain the integrity and confidentiality of encrypted data.

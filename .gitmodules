@@ -1,0 +1,3 @@
+[submodule "PurpleLlama"]
+	path = PurpleLlama
+	url = https://github.com/PurCL/PurpleLlama.git

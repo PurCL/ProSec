@@ -1,0 +1,1 @@
+CWE-502 is a deserialization vulnerability where untrusted data can lead to security issues like remote code execution. In Python, deserialization issues commonly occur with `pickle`, `yaml.load`, and `eval`, which can execute arbitrary code if not handled carefully. Using trusted data sources and proper validation can mitigate such risks.

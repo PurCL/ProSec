@@ -1,0 +1,1 @@
+CWE-119 pertains to improper memory bounds management, commonly causing buffer overflows. While JavaScript does not directly manage memory, similar issues can occur when interacting with lower-level languages like C/C++ in environments such as Node.js or WebAssembly. Such interactions can introduce vulnerabilities if the buffers or inputs aren't properly handled or validated.

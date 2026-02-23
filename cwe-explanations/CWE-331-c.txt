@@ -1,0 +1,1 @@
+CWE-331 highlights the dangers of using algorithms that produce insufficient entropy, leading to predictable outputs. In C programming, this often involves the inappropriate use of non-cryptographic PRNGs like rand() for security-critical operations. Employing CSPRNGs and properly seeding them with high-entropy values are vital steps to prevent such vulnerabilities.

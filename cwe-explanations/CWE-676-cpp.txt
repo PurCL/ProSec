@@ -1,0 +1,1 @@
+CWE-676 involves the use of dangerous functions that can expose a program to security risks, especially when used without proper precautions. In C++, it is often associated with unsafe functions like 'gets()', 'strcpy()', and improper memory handling. Using safer alternatives like 'std::string' or 'std::vector' can reduce this risk.

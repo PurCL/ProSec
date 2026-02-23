@@ -1,0 +1,1 @@
+CWE-338 highlights the issue of using weak PRNGs that may compromise sensitive information due to predictability. In C#, this typically occurs when developers use `System.Random` instead of cryptographic-grade PRNGs like `RNGCryptoServiceProvider` or `RandomNumberGenerator`. Using a weak generator can result in predictable random values, posing security risks.

@@ -1,0 +1,3 @@
+CWE-942, "Permissive Cross-domain Policy with Untrusted Domains," occurs when an application implements an overly permissive Cross-Origin Resource Sharing (CORS) policy, allowing access from untrusted domains. This can lead to unauthorized access, data theft, or malicious actions.
+
+In Java, this often arises in frameworks like Spring Boot when the @CrossOrigin annotation is used without restricting origins, or when wildcards (*) are included in CORS policies. For example, using @CrossOrigin without specifying trusted domains allows access from any domain, exposing the application to potential exploitation.

@@ -1,0 +1,3 @@
+CWE-327, "Use of a Broken or Risky Cryptographic Algorithm," highlights the dangers of using outdated or insecure algorithms in Java, such as MD5, SHA-1, or DES. These algorithms are vulnerable to attacks, including collisions and brute force. Common examples include using MD5 for hashing or DES for encryption, both of which compromise security.
+
+To mitigate these risks, developers should replace weak algorithms with secure ones like SHA-256 for hashing and AES for encryption. Additionally, cryptographic practices must include secure random number generators for IVs and salts, such as `SecureRandom`. Staying updated with current cryptographic standards ensures applications remain robust against modern threats.

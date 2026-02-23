@@ -1,0 +1,1 @@
+CWE-121 refers to stack-based buffer overflows, where excessive data is written to stack-allocated buffers, leading to memory corruption and potential security risks. In C++, this typically arises from improper array indexing or unsafe string operations. Mitigation involves implementing bounds checking and utilizing safer functions to handle data appropriately.

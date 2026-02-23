@@ -1,0 +1,1 @@
+CWE-330 highlights the risk of using predictable random numbers in security contexts. In Java, substituting `java.util.Random` with `java.security.SecureRandom` for tasks like generating session IDs or cryptographic keys ensures the use of sufficiently random values, mitigating potential vulnerabilities. 

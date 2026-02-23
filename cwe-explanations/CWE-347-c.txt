@@ -1,0 +1,1 @@
+CWE-347 highlights the risks associated with improper verification of cryptographic signatures. In C programming, this often involves failing to validate signatures of data from untrusted sources, leading to potential security breaches. Employing reliable cryptographic libraries and enforcing strict signature verification can effectively prevent such vulnerabilities.

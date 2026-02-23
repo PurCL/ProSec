@@ -1,0 +1,1 @@
+CWE-242 highlights the dangers of using functions in C that lack inherent safety mechanisms, particularly those that do not perform bounds checking. Replacing these functions with safer alternatives that enforce buffer size limitations is crucial to prevent security vulnerabilities such as buffer overflows.

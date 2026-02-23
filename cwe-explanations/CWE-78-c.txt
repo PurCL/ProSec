@@ -1,0 +1,1 @@
+CWE-78 is an OS Command Injection vulnerability where unsanitized external input can lead to arbitrary command execution. In C, it often occurs in functions like `system()` and `exec()` where unchecked user input is passed to shell commands. Avoiding this vulnerability requires validating and sanitizing input to ensure no malicious commands can be injected.

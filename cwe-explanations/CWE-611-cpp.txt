@@ -1,0 +1,1 @@
+CWE-611 highlights the risks associated with improper handling of XML external entities in C++ applications. By disabling external entity processing and configuring XML parsers securely, developers can mitigate these vulnerabilities and enhance application security.

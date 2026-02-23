@@ -1,0 +1,1 @@
+CWE-477 highlights the risks associated with using deprecated functions in C programming. To mitigate these risks, developers should replace obsolete functions with their modern, safer counterparts and regularly review code to ensure compliance with current best practices.
