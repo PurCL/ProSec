@@ -5,7 +5,7 @@ import glob
 import os
 
 parser = argparse.ArgumentParser(description='Generate fix instructions')
-parser.add_argument('--detection-explanation', type=str, default='detection-rule-bypass-explanations.jsonl')
+parser.add_argument('--detection-explanation', type=str, default='cwe-explanations/detection-rule-bypass-explanations.jsonl')
 parser.add_argument('--cwe-explanation-dir', type=str, default='cwe-explanations')
 parser.add_argument('--fin', type=str, help='Input file', required=True)
 parser.add_argument('--fout-stats', type=str, help='Output file for statistics', default='')
